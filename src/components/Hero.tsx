@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { MdOutlineEmail } from "react-icons/md";
 
 
 export default function Hero() {
@@ -39,21 +40,6 @@ export default function Hero() {
                     technical skills, solve problems, and continuously learn in a professional environment.
                 </p>
 
-                {/* Socials */}
-                <div>
-                    <a href="https://github.com/" target="_blank" rel ="noopener noreferrer"
-                    className="text-white/40 hover:text-white transition-colors duration-200">
-                        <FaGithub size={22}/>   
-                    </a>
-                    <a href="https://linkedin.com/" target="_blank" rel ="noopener noreferrer"
-                    className="text-white/40 hover:text-white transition-colors duration-200 ml-4">
-                        <FaLinkedin size={22}/>   
-                    </a>
-                    <a href="mailto:jhyncierto@gmail.com" target="_blank" rel ="noopener noreferrer"
-                    className="text-white/40 hover:text-white transition-colors duration-200 ml-4">
-                        <HiOutlineMail size={22}/>   
-                    </a>
-                </div>
 
                 <div className="flex gap-3 mt-2">
                     <a href="#projects"

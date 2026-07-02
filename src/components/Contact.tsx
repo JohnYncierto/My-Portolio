@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { MdOutlineEmail } from "react-icons/md";
 
 export default function Contact() {
     return(
@@ -34,23 +35,32 @@ export default function Contact() {
                   {/* Social links */}
         <div className="flex items-center justify-center gap-6">
           
-            <a href="https://github.com/"
+            <a href="https://github.com/JohnYncierto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/40 hover:text-white transition-colors duration-200"
             >
             <FaGithub size={20} />
             <span className="text-sm">GitHub</span>
-          </a>
+            </a>
           
-            <a href="https://linkedin.com/"
+            <a href="https://www.linkedin.com/in/john-herbert-yncierto-ab0618294"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/40 hover:text-white transition-colors duration-200"
             >
             <FaLinkedin size={20} />
             <span className="text-sm">LinkedIn</span>
-          </a>
+            </a>
+
+            <a href="https://mail.google.com/mail/?view=cm&to=jhyncierto@gmail.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-white/40 hover:text-white transition-colors duration-200"
+            >
+            <MdOutlineEmail size={20} />
+            <span className="text-sm">Email</span>
+            </a>
         </div>
 
 

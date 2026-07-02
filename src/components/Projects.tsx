@@ -5,7 +5,7 @@ const projects = [
     {
         title: "Bicycle shop POS",
         tag:"Fullstack",
-        description:"A Web-based POS system for a bicycle shop that records sales, inventory, and produces reports based on historical data",
+        description:"A Web-based POS system for a bicycle shop that records sales, inventory, and produces reports based on historical data.",
         tech: ["React", "MySQL", "Tailwind CSS", "Node.js", "Express"],
         github:"https://github.com/dcmcamihan/bicycle-supply-frontend",
         image: "/project1.png",         
