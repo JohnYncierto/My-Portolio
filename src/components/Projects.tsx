@@ -27,7 +27,7 @@ const projects = [
          to upload, view, and manage medical images securely in a cloud database`,
         tech: ["React", "Tailwind CSS", "AWS S3", "AWS RDS", "Express"],
         github:"https://github.com/JohnYncierto/DReye-repository",
-        image: "/images/project3.png",         
+        image: "/project3.png",         
     },
     {
         title: "Thesis: DREye-net retinal imaging AI Ensemble",
@@ -36,7 +36,7 @@ const projects = [
          with a web-based interface for medical professionals to upload and view images`,
         tech: ["Python", "Docker", "PyTorch", "Grad-cam", "StreamLit","ResNet", "Efficient-Net"],
         github:"",
-        image: "/images/project4.png",         
+        image: "/project4.png",         
     },
 
 ];
