@@ -1,5 +1,4 @@
 import {FaGithub } from "react-icons/fa";
-import {HiOutlineExternalLink} from "react-icons/hi";
 
 const projects = [
     {

@@ -1,7 +1,3 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { MdOutlineEmail } from "react-icons/md";
-
 
 export default function Hero() {
     const roles = ["Fullstack Developer", "AWS learner", "CS student", ];
@@ -26,7 +22,7 @@ export default function Hero() {
 
                 {/* Roles */}
                 <div className="flex flex-wrap gap-2">
-                    {roles.map((role, index)=>(
+                    {roles.map((role)=>(
                         <span key={role} className="px-3 py-1 text-sm text-[#4F8EF7] bg-[#4F8EF7]/10 border border-[#4F8EF7]/20 rounded-full">
                             {role}
                         </span>
