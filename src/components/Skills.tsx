@@ -1,6 +1,6 @@
 import {
   SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiTailwindcss,
-  SiNodedotjs, SiExpress, SiPostgresql, SiMysql, SiPython, SiDocker, SiGit, SiLinux,
+  SiNodedotjs, SiExpress, SiPostgresql, SiMysql, SiPython, SiGit,
 } from "react-icons/si";
 
 import { FaAws } from "react-icons/fa";
