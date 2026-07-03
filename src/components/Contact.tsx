@@ -18,7 +18,7 @@ export default function Contact() {
                 </p>
                 
                  {/* Email button */}
-                 <a href="mailto:your@email.com"
+                 <a href="https://mail.google.com/mail/?view=cm&to=jhyncierto@gmail.com"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-[#4F8EF7] hover:bg-[#3a7ae0] text-white font-medium rounded-lg transition-colors duration-200 mb-12">
                     
                     <HiOutlineMail size={20} />
@@ -51,15 +51,6 @@ export default function Contact() {
             >
             <FaLinkedin size={20} />
             <span className="text-sm">LinkedIn</span>
-            </a>
-
-            <a href="https://mail.google.com/mail/?view=cm&to=jhyncierto@gmail.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/40 hover:text-white transition-colors duration-200"
-            >
-            <MdOutlineEmail size={20} />
-            <span className="text-sm">Email</span>
             </a>
         </div>
 
