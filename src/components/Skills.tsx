@@ -46,7 +46,7 @@ export default function Skills() {
                     Skills
                 </h2>
 
-                <div className="grid grid-cols-3 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {skills.map((category) => (
                         <div key={category.title} className ="bg-[#1A1A24] border border-white/5 rounded-2xl p-6">
                             <h3 className="text-white font-semibold mb-5">{category.title}</h3>
