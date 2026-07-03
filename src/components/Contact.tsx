@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { MdOutlineEmail } from "react-icons/md";
 
 export default function Contact() {
     return(
